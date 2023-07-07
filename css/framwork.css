@@ -1,0 +1,297 @@
+:root {
+   --blue-color: #0075ff;
+   --blue-alt-color: #0d69d5;
+   --orange-color: #f59e0b;
+   --green-color: #22c55e;
+   --red-color: #f44336;
+   --grey-color: #888;
+}
+/* start box */
+.d-flex{
+   display: flex;
+}
+.align-center{
+   display: flex;
+   align-items:center;
+}
+.f-wrap{
+   flex-wrap: wrap;
+}
+/* end box */
+/* start padding + margin */
+.p-25{
+   padding: 25px;
+}
+.p-20{
+   padding: 20px;
+}
+.p-15{
+   padding: 15px;
+}
+.p-10{
+   padding: 10px;
+}
+.p-5{
+   padding: 5px;
+}
+.p-0{
+   padding: 0;
+}
+.pt-10{
+   padding-top: 10px;
+}
+.pt-15{
+   padding-top: 15px;
+}
+.pt-20{
+   padding-top: 20px;
+}
+.pb-5{
+   padding-bottom: 5px;
+}
+.pb-10{
+   padding-bottom: 20px;
+}
+.pb-15{
+   padding-bottom: 15px;
+}
+.pb-20{
+   padding-bottom: 20px;
+}
+.pb-25{
+   padding-bottom: 25px;
+}
+.pl-10{
+   padding-left: 10px;
+}
+.pl-15{
+   padding-left: 15px;
+}
+.m-20{
+   margin: 20px;
+}
+.m-15{
+   margin: 15px;
+}
+.m-0{
+   margin: 0;
+}
+.mt-0{
+   margin-top: 0;
+}
+.mt-5{
+   margin-top: 5px;
+}
+.mt-10{
+   margin-top: 10px;
+}
+.mt-15{
+   margin-top: 15px;
+}
+.mt-20{
+   margin-top: 20px;
+}
+.mt-25{
+   margin-top: 25px;
+}
+.mb-0{
+   margin-bottom: 0;
+}
+.mb-5{
+   margin-bottom: 5px;
+}
+.mb-10{
+   margin-bottom: 10px;
+}
+.mb-15{
+   margin-bottom: 15px;
+}
+.mb-20{
+   margin-bottom: 20px;
+}
+.mb-25{
+   margin-bottom: 25px;
+}
+.mr-10{
+   margin-right: 10px;
+}
+.mr-15{
+   margin-right: 15px;
+}
+/* end padding + margin */
+/* start color */
+.bg-white{
+   background-color: white;
+}
+.c-black{
+   color: black;
+}
+.c-blue{
+   color: var(--blue-alt-color);
+}
+.bg-eee{
+   background-color: #eee;
+}
+.c-grey{
+   color: var(--grey-color);
+}
+.bg-blue{
+   background-color: var(--blue-color);
+}
+.bg-orange{
+   background-color: var(--orange-color);
+}
+.c-orange{
+   color: var(--orange-color);
+}
+.c-white{
+   color: white;
+}
+.c-green{
+   color: var(--green-color);
+}
+.c-red{
+   color: var(--red-color);
+}
+.bg-green{
+   background-color: var(--green-color);
+}
+.bg-grey{
+   background-color: var(--grey-color);
+}
+.bg-red{
+   background-color: var(--red-color);
+}
+.bg-eee{
+   background-color: #eee;
+}
+/* end color */
+/* start position */
+.p-relative{
+   position: relative;
+}
+.p-absolute{
+   position: absolute;
+}
+/* end position */
+/* start font */
+.text-c{
+   text-align: center;
+}
+.txt-c{
+   text-align: center;
+}
+.fs-13{
+   font-size: 13px;
+}
+.fs-14{
+   font-size: 14px;
+}
+.fs-15{
+   font-size: 15px;
+}
+.fs-16{
+   font-size: 16px;
+}
+.fs-20{
+   font-size: 20px;
+}
+.fs-25{
+   font-size: 25px;
+}
+.fw-bold{
+   font-weight: bold;
+}
+/* end font */
+/* start border */
+.rad-6{
+   border-radius: 6px;
+}
+.rad-10{
+   border-radius: 10px;
+}
+.rad-half{
+   border-radius: 50%;
+}
+.b-none{
+   border: none;
+}
+.b-ccc{
+   border: 1px solid #ccc;
+}
+.b-eee{
+   border: 1px solid #eee;
+}
+.b-b-eee{
+   border-bottom: 1px solid #eee
+}
+/* end border */
+/* start components */
+.between-flex{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.space-between{
+   display: flex;
+   justify-content: space-between;
+}
+.btn-shape{
+   padding: 6px 12px;
+   border-radius: 6px;
+}
+.center-flex{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+/* end components */
+/* Start Width + Height */
+.w-full{
+   width: 100%;
+}
+.w-fit{
+   width: fit-content;
+}
+.h-full{
+   height: 100%;
+}
+.w-100{
+   width: 100px;
+}
+.h-100{
+   height: 100px;
+}
+/* end Width + Height */
+/* start wrapper */
+.d-grid{
+   display: grid;
+}
+.d-block{
+   display: block;
+}
+.gap-20{
+   gap: 20px;
+}
+.no-resize{
+   resize: none;
+}
+/* end wrapper */
+/* start media */
+   @media(max-width: 767px){
+      .block-mobile{
+         display: block;
+      }
+      .hide-in-mobile{
+         display: none;
+      }
+      .hide-mobile{
+         display: none;
+      }
+   }
+   @media(max-width: 767px){
+      .txt-c-mobile{
+         text-align: center;
+      }
+   }
+/* end media */
